@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>It Started in the Desert</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>It Started in the Desert</h1>
+    <div id="step1" class="step">
+      <p class="story">You wake up to a bright light outside your window. As you look closer, you see a strange spaceship hovering over the city. What do you do?</p>
+      <div class="choices">
+        <button onclick="handleChoice(1)">Hide under the bed</button>
+        <button onclick="handleChoice(2)">Go outside and investigate</button>
+      </div>
+    </div>
+
+    <!-- Add more steps here as div elements -->
+    <div id="step2" class="step">
+      <p class="story">You hide under the bed, but the aliens spot you anyway. They break into your house and capture you. What now?</p>
+      <div class="choices">
+        <button onclick="handleChoice(1)">Try to negotiate with the aliens</button>
+        <button onclick="handleChoice(2)">Attempt to escape</button>
+      </div>
+    </div>
+
+    <div id="step3" class="step">
+      <p class="story">You cautiously go outside to investigate. You see the aliens are friendly and have come in peace. They want to learn about humanity. How do you respond?</p>
+      <div class="choices">
+        <button onclick="handleChoice(1)">Welcome the aliens and offer help</button>
+        <button onclick="handleChoice(2)">Alert the military about the invasion</button>
+      </div>
+    </div>
+
+    <!-- Add more steps here as div elements -->
+    <!-- ... -->
+
+    <div id="end" class="step">
+      <p class="story">Congratulations! You have reached the end of the adventure. Your actions have shaped the outcome of Earth's encounter with the aliens. Thank you for playing!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
